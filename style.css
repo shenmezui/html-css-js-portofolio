@@ -58,7 +58,9 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    display: flex;
+    height: 60%;
+    width: 60%;
 }
 
 .logo.hover {
@@ -170,8 +172,8 @@ section {
 
 .section__pic-container {
     display: flex;
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
     margin: auto 0;
 }
 
@@ -201,8 +203,8 @@ section {
 #socials-continer {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
-    gap: 1rem;
+    margin-top: 5rem;
+    gap: 2rem;
 }
 
 /*ICONS*/
@@ -210,6 +212,14 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+.iconstar {
+    cursor: pointer;
+    height: 5rem;
+}
+.iconstar1 {
+    cursor: pointer;
+    height: 5rem;
 }
 
 /*BUTTONS*/
@@ -330,7 +340,7 @@ section {
 
 .article-container {
     display: flex;
-    text-align: initial;
+    text-align: justify;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
@@ -339,7 +349,7 @@ section {
 
 article {
     display: flex;
-    width: 10rem;
+    width: 20rem;
     justify-content: space-around;
     gap: 0.5rem;
 }
@@ -361,10 +371,13 @@ article .icon {
 }
 
 .projects-details-container {
-    padding: 1.5rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .color-container {
     border-color: rgb(163, 163, 163);
@@ -372,9 +385,10 @@ article .icon {
 }
 
 .project-img {
+    display: flex;
     border-radius: 0.25rem;
-    width: fit-content;
-    height:fit-content;
+    width: 20%;
+    height: 20%;
 }
 
 .project-title {
@@ -390,10 +404,12 @@ article .icon {
 /* CONTACT */
 
 #contact {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    gap: 2rem;
 }
 
 .contact-info-upper-container {
@@ -420,8 +436,8 @@ article .icon {
 }
 
 .contact-icon {
-    cursor: default;
-    height: 2rem;
+    cursor: pointer;
+    height: 4rem;
 }
 
 .email-icon {

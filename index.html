@@ -3,24 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Our Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Baharudin Yusuf Widiyanto</div>
+      <div class="logo"><img src="./assets/25projectgold.png"></div>
       <div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experience">Services</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Baharudin Yusuf Widiyanto</div>
+      <div class="logo"><img src="./assets/25projectgold.png"></div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
             <span></span>
@@ -29,7 +29,7 @@
         </div>
         <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Services</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -42,77 +42,72 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Yusuf</h1>
-        <p class="section__text__p2">Professional Marketeer</p>
+        <p class="section__text__p2">25Group Marketeer</p>
         <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+          <button class="btn btn-color-2" onclick="window.open('./assets/paket.pdf')">Download Portfolio</button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
         </div>
         <div id="social-container">
-          <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/bywidiyanto/'">
+          <img src="./assets/WhatsAppButtonWhiteSmall.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://wa.me/6281370001218'">
         </div>
       </div>
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <h1 class="title">About Us</h1>
       <div class="section-container">
         <div class="section__pic-container">
-          <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
+          <img src="./assets/covergroup.png" alt="Profile Picture" class="about-pic">
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
               <img src="./assets/experience.png" alt="experience icon" class="icon">
               <h3>Experience</h3>
-              <p>2+ years <br />Professional Marketeer</p>
-            </div>
-            <div class="details-container">
-              <img src="./assets/hat.png" alt="Education icon" class="icon">
-              <h3>Education</h3>
-              <p>S1 Management <br />Diponegoro University</p>
+              <p>5+ years <br />Interior Design, Architect and Contractor</p>
             </div>
           </div>
           <div class="text-container">
-            <p>I'm Process-oriented Marketeer, because i believe that understanding and focus on process will give us more better understanding to our product and client needs. From there, we can keep up with better strategies for marketing and keeping our costumer satisfaction for retention to our services or product. Because i believe Marketing is about Retention.</p>
+            <p>25group was founded on September 25, 2018. We're a company engaged in civil engineering and interior design based in Semarang, Indonesia. We provide services and products that are not only the best but can inspire and impress our clients. Each designs bring a different story that increases value for the client. We create designs that give value and meaning. 25 Projects accommodate every client needs. We strive to deliver what clients want.</p>
           </div>
         </div>
       </div>
       <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <p class="section__text__p1">Explore Our</p>
+      <h1 class="title">Services</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Professional Marketeer</h2>
             <div class="article-container">
               <article>
-                <img src="./assets/education.png" alt="experience icon" class="icon">
+                <img src="./assets/25architect1.PNG" alt="experience icon" class="iconstar1">
                 <div>
-                  <h3>Customer Relation</h3>
-                  <p>Experienced</p>
+                  <h3>25 Architect</h3>
+                  <p>Melayani jasa perencanaan pembangunan rumah atau bangunan. Menyiapkan konsep rumah, desain, layout, denah, gambar kerja serta rencana anggaran biaya (RAB) sebagai panduan pembuatan rumah</p>
                 </div>
               </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
               <article>
-                <img src="./assets/speaker.png" alt="experience icon" class="icon">
+                <img src="./assets/25interior.png" alt="experience icon" class="iconstar">
                 <div>
-                  <h3>Public Speaking</h3>
-                  <p>Intermediate</p>
+                  <h3>25 Interior</h3>
+                  <p>Berfokus pada fabrikasi furniture interior custom hingga installasi.</p>
                 </div>
               </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
               <article>
-                <img src="./assets/solving.png" alt="experience icon" class="icon">
+                <img src="./assets/25project.png" alt="experience icon" class="iconstar">
                 <div>
-                  <h3>Problem Solving</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/negotiation.png" alt="experience icon" class="icon">
-                <div>
-                  <h3>Negotiation</h3>
-                  <p>Experienced</p>
+                  <h3>25 Project</h3>
+                  <p>Berfokus pada pelaksanaan pembangunan rumah, melakukan pengawasan hingga selesai</p>
                 </div>
               </article>
             </div>
@@ -128,12 +123,38 @@
         <div class="about-containers">
           <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-2.png" alt="Project 1" class="project-img">
+            <img src="./assets/25architect1.PNG" alt="Project 1" class="project-img">
           </div>
-          <h2 class="projects-sub-title project-title">Developing Online Consultant</h2>
+          <h2 class="projects-sub-title project-title">25 Architect</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://bit.ly/3txE29d'">
-              Fastwork
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/25architect/'">
+              Instagram
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/25project.png" alt="Project 1" class="project-img">
+          </div>
+          <h2 class="projects-sub-title project-title">25 Project</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/25projectt/'">
+              Instagram
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/25interior.png" alt="Project 1" class="project-img">
+          </div>
+          <h2 class="projects-sub-title project-title">25 Interior</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/25interior.id/'">
+              Instagram
             </button>
           </div>
           </div>
@@ -150,8 +171,7 @@
           <p><a href="mailto:bywidiyanto@gmail.com">bywidiyanto@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
-          <p><a href="https://www.linkedin.com/in/bywidiyanto/">bywidiyanto</a></p>
+          <img src="./assets/WhatsAppButtonWhiteSmall.png" alt="linkedin icon" class="icon contact-icon" onclick="location.href='https://wa.me/6281370001218'">
         </div>
       </div>
     </section>
@@ -160,7 +180,7 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experience">Services</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
